@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 520" role="img" aria-labelledby="title desc">
+  <title id="title">HK4100F HK4101F relay identification diagram</title>
+  <desc id="desc">Simplified bottom view relay pin diagram showing coil pins and contact pins for HK4100F HK4101F style subminiature signal relays.</desc>
+  <defs>
+    <linearGradient id="body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#46515f"/>
+      <stop offset="100%" stop-color="#222931"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#5a534c"/>
+    </marker>
+    <style>
+      .title { font: 700 22px Arial, sans-serif; fill: #2e2722; }
+      .label { font: 700 18px Arial, sans-serif; fill: #2e2722; }
+      .text { font: 15px Arial, sans-serif; fill: #564f49; }
+      .small { font: 13px Arial, sans-serif; fill: #6b645d; }
+      .pin { font: 700 16px Arial, sans-serif; fill: #fffdf9; }
+    </style>
+  </defs>
+
+  <rect width="920" height="520" rx="30" fill="#faf6f0"/>
+  <text x="54" y="46" class="title">HK4100F / HK4101F 外观与引脚示意</text>
+
+  <rect x="274" y="96" width="220" height="152" rx="16" fill="url(#body)"/>
+  <text x="384" y="148" text-anchor="middle" class="pin">HK4100F</text>
+  <text x="384" y="176" text-anchor="middle" class="small" fill="#d8dde2">Bottom View / Relay</text>
+
+  <circle cx="304" cy="118" r="8" fill="#cfd8de"/>
+  <circle cx="304" cy="224" r="8" fill="#cfd8de"/>
+  <circle cx="384" cy="118" r="8" fill="#cfd8de"/>
+  <circle cx="384" cy="224" r="8" fill="#cfd8de"/>
+  <circle cx="464" cy="118" r="8" fill="#cfd8de"/>
+  <circle cx="464" cy="224" r="8" fill="#cfd8de"/>
+
+  <text x="292" y="108" class="small">1</text>
+  <text x="292" y="244" class="small">2</text>
+  <text x="372" y="108" class="small">3</text>
+  <text x="372" y="244" class="small">4</text>
+  <text x="452" y="108" class="small">5</text>
+  <text x="452" y="244" class="small">6</text>
+
+  <path d="M312 198 C326 182 342 214 356 198 C370 182 386 214 400 198" fill="none" stroke="#f4c36b" stroke-width="4"/>
+  <line x1="304" y1="224" x2="312" y2="198" stroke="#f4c36b" stroke-width="3"/>
+  <line x1="400" y1="198" x2="464" y2="224" stroke="#f4c36b" stroke-width="3"/>
+
+  <line x1="304" y1="118" x2="354" y2="140" stroke="#d6dde2" stroke-width="3"/>
+  <line x1="414" y1="140" x2="464" y2="118" stroke="#d6dde2" stroke-width="3"/>
+  <line x1="354" y1="140" x2="414" y2="140" stroke="#d6dde2" stroke-width="3"/>
+  <line x1="384" y1="140" x2="384" y2="224" stroke="#d6dde2" stroke-width="3"/>
+
+  <line x1="82" y1="150" x2="300" y2="150" stroke="#a24d1b" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="52" y="142" class="label">线圈脚</text>
+  <text x="52" y="164" class="text">常见为一组线圈端子，用于驱动继电器动作</text>
+
+  <line x1="82" y1="204" x2="382" y2="204" stroke="#7f2018" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="52" y="196" class="label">触点组</text>
+  <text x="52" y="218" class="text">按 1A 或 1C 触点形式切换负载回路</text>
+
+  <line x1="544" y1="132" x2="468" y2="132" stroke="#5a534c" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="556" y="124" class="label">底视图</text>
+  <text x="556" y="146" class="text">引脚编号与接线图通常按底视图标注</text>
+
+  <line x1="544" y1="186" x2="468" y2="186" stroke="#5e646a" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="556" y="178" class="label">触点形式</text>
+  <text x="556" y="200" class="text">资料中给出 1C / 1A 等配置选项</text>
+
+  <line x1="544" y1="240" x2="464" y2="224" stroke="#7f2018" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="556" y="232" class="label">线圈电压</text>
+  <text x="556" y="254" class="text">常见有 3V、5V、6V、9V、12V、24V</text>
+
+  <rect x="72" y="438" width="776" height="56" rx="16" fill="#fffdf9" stroke="#e4d8c9"/>
+  <text x="94" y="460" class="label">如何看这个继电器</text>
+  <circle cx="286" cy="455" r="9" fill="#a24d1b"/>
+  <text x="302" y="460" class="small">先确认是底视图，再看脚位编号</text>
+  <circle cx="520" cy="455" r="9" fill="#7f2018"/>
+  <text x="536" y="460" class="small">线圈脚和触点脚要分开识别，不能直接混接</text>
+  <text x="94" y="482" class="small">参数与引脚形式按 PDF 整理，具体脚位以实际型号页和触点形式为准。</text>
+</svg>

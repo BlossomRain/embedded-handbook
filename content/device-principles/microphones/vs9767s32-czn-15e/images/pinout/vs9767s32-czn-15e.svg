@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 520" role="img" aria-labelledby="title desc">
+  <title id="title">VS9767S32 CZN-15E microphone identification diagram</title>
+  <desc id="desc">Simplified electret condenser microphone diagram showing top sound hole, can body, terminal polarity understanding, and basic notes.</desc>
+  <defs>
+    <linearGradient id="body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d8d9dc"/>
+      <stop offset="100%" stop-color="#8d939a"/>
+    </linearGradient>
+    <linearGradient id="lead" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eef2f5"/>
+      <stop offset="100%" stop-color="#9ca5ad"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#5a534c"/>
+    </marker>
+    <style>
+      .title { font: 700 22px Arial, sans-serif; fill: #2e2722; }
+      .label { font: 700 18px Arial, sans-serif; fill: #2e2722; }
+      .text { font: 15px Arial, sans-serif; fill: #564f49; }
+      .small { font: 13px Arial, sans-serif; fill: #6b645d; }
+    </style>
+  </defs>
+
+  <rect width="920" height="520" rx="30" fill="#faf6f0"/>
+  <text x="54" y="46" class="title">VS9767S32 (CZN-15E) 外观与接线示意</text>
+
+  <circle cx="340" cy="168" r="104" fill="url(#body)" stroke="#6f767e" stroke-width="3"/>
+  <circle cx="340" cy="168" r="18" fill="#737981"/>
+  <circle cx="340" cy="168" r="4" fill="#2c2f33"/>
+  <line x1="306" y1="270" x2="296" y2="420" stroke="url(#lead)" stroke-width="8" stroke-linecap="round"/>
+  <line x1="374" y1="270" x2="384" y2="392" stroke="url(#lead)" stroke-width="8" stroke-linecap="round"/>
+  <rect x="272" y="252" width="136" height="18" rx="9" fill="#b6bcc3"/>
+
+  <line x1="82" y1="150" x2="248" y2="150" stroke="#5a534c" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="52" y="142" class="label">拾音孔</text>
+  <text x="52" y="164" class="text">顶部中心开孔用于接收声音</text>
+
+  <line x1="82" y1="214" x2="286" y2="214" stroke="#a24d1b" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="52" y="206" class="label">外壳</text>
+  <text x="52" y="228" class="text">金属壳体通常与负极/地相关</text>
+
+  <line x1="82" y1="372" x2="290" y2="372" stroke="#7f2018" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="52" y="364" class="label">端子 1</text>
+  <text x="52" y="386" class="text">常作为输出/偏置端</text>
+
+  <line x1="82" y1="410" x2="382" y2="410" stroke="#5e646a" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="52" y="402" class="label">端子 2</text>
+  <text x="52" y="424" class="text">常与外壳或地相关</text>
+
+  <line x1="548" y1="132" x2="442" y2="132" stroke="#5a534c" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="562" y="124" class="label">类型</text>
+  <text x="562" y="146" class="text">驻极体电容麦克风</text>
+
+  <line x1="548" y1="186" x2="440" y2="186" stroke="#7f2018" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="562" y="178" class="label">方向</text>
+  <text x="562" y="200" class="text">拾音面通常朝向开孔侧</text>
+
+  <line x1="548" y1="240" x2="408" y2="240" stroke="#5e646a" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="562" y="232" class="label">接线理解</text>
+  <text x="562" y="254" class="text">实际应用前需以规格书端子定义为准</text>
+
+  <rect x="72" y="438" width="776" height="56" rx="16" fill="#fffdf9" stroke="#e4d8c9"/>
+  <text x="94" y="460" class="label">如何看这个麦克风</text>
+  <circle cx="288" cy="455" r="9" fill="#a24d1b"/>
+  <text x="304" y="460" class="small">先认拾音孔和安装方向</text>
+  <circle cx="496" cy="455" r="9" fill="#7f2018"/>
+  <text x="512" y="460" class="small">端子功能和极性理解要以规格书为准</text>
+  <text x="94" y="482" class="small">本页用于快速识别外形和典型接线理解，不替代原始规格书。</text>
+</svg>

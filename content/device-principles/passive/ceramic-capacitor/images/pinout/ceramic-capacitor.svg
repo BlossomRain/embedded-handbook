@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 520" role="img" aria-labelledby="title desc">
+  <title id="title">Ceramic capacitor identification diagram</title>
+  <desc id="desc">Simplified ceramic capacitor diagram showing non-polarized leads, disc body, and common marking examples such as 104 for 100nF.</desc>
+  <defs>
+    <linearGradient id="disc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6c26d"/>
+      <stop offset="100%" stop-color="#a45422"/>
+    </linearGradient>
+    <linearGradient id="lead" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eef2f5"/>
+      <stop offset="100%" stop-color="#9ca5ad"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#5a534c"/>
+    </marker>
+    <style>
+      .title { font: 700 22px Arial, sans-serif; fill: #2e2722; }
+      .label { font: 700 18px Arial, sans-serif; fill: #2e2722; }
+      .text { font: 15px Arial, sans-serif; fill: #564f49; }
+      .small { font: 13px Arial, sans-serif; fill: #6b645d; }
+      .mark { font: 700 32px Arial, sans-serif; fill: #fff8ef; letter-spacing: 1px; }
+    </style>
+  </defs>
+
+  <rect width="920" height="520" rx="30" fill="#faf6f0"/>
+  <text x="54" y="50" class="title">陶瓷电容外观与标识示意</text>
+
+  <path d="M248 116 C254 88 276 72 314 66 H392 C430 72 452 88 458 116 V202 C452 230 430 246 392 250 H314 C276 246 254 230 248 202 Z" fill="url(#disc)" stroke="#7c3f16" stroke-width="3"/>
+  <text x="354" y="170" text-anchor="middle" class="mark">104</text>
+  <line x1="320" y1="250" x2="304" y2="432" stroke="url(#lead)" stroke-width="8" stroke-linecap="round"/>
+  <line x1="388" y1="250" x2="404" y2="432" stroke="url(#lead)" stroke-width="8" stroke-linecap="round"/>
+
+  <line x1="84" y1="376" x2="300" y2="376" stroke="#8d5b20" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="52" y="370" class="label">引脚 1</text>
+  <text x="52" y="394" class="text">无极性，可与另一端互换</text>
+
+  <line x1="84" y1="414" x2="400" y2="414" stroke="#8d5b20" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="52" y="408" class="label">引脚 2</text>
+  <text x="52" y="432" class="text">无极性，可与另一端互换</text>
+
+  <line x1="520" y1="150" x2="410" y2="150" stroke="#7c3f16" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="532" y="142" class="label">容量标识</text>
+  <text x="532" y="166" class="text">常见三位码，如 104</text>
+
+  <line x1="520" y1="204" x2="454" y2="204" stroke="#6b4f36" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="532" y="196" class="label">外形</text>
+  <text x="532" y="220" class="text">常见圆片、浸塑或多层贴片形式</text>
+
+  <line x1="520" y1="258" x2="394" y2="258" stroke="#5a534c" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="532" y="250" class="label">极性</text>
+  <text x="532" y="274" class="text">无极性，不区分正负极</text>
+
+  <rect x="530" y="340" width="310" height="112" rx="18" fill="#fffdf9" stroke="#e4d8c9"/>
+  <text x="552" y="368" class="label">如何看这个电容</text>
+  <circle cx="570" cy="392" r="10" fill="#8d5b20"/>
+  <text x="590" y="397" class="small">两根脚等价，通常不区分正负极</text>
+  <circle cx="570" cy="414" r="10" fill="#a45422"/>
+  <text x="590" y="419" class="small">104 常表示 100nF，也就是 0.1uF</text>
+  <text x="552" y="444" class="small">不同系列和封装的尺寸、耐压范围会不同。</text>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 520" role="img" aria-labelledby="title desc">
+  <title id="title">S9013 transistor identification diagram</title>
+  <desc id="desc">Simplified S9013 TO-92 transistor diagram with a three-band layout showing front view, pin order E B C, and basic usage notes.</desc>
+  <defs>
+    <linearGradient id="body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#393d45"/>
+      <stop offset="100%" stop-color="#121418"/>
+    </linearGradient>
+    <linearGradient id="lead" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eef2f5"/>
+      <stop offset="100%" stop-color="#9ca5ad"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#5a534c"/>
+    </marker>
+    <style>
+      .title { font: 700 22px Arial, sans-serif; fill: #2e2722; }
+      .label { font: 700 18px Arial, sans-serif; fill: #2e2722; }
+      .text { font: 15px Arial, sans-serif; fill: #564f49; }
+      .small { font: 13px Arial, sans-serif; fill: #6b645d; }
+      .pin { font: 700 20px Arial, sans-serif; fill: #fffdf9; }
+    </style>
+  </defs>
+
+  <rect width="920" height="520" rx="30" fill="#faf6f0"/>
+
+  <text x="54" y="46" class="title">S9013 外观与引脚识别示意</text>
+
+  <path d="M316 96 C316 68 340 50 374 50 H446 C480 50 504 68 504 96 V206 H316 Z" fill="url(#body)"/>
+  <path d="M316 96 C316 68 340 50 374 50 H446 C480 50 504 68 504 96" fill="none" stroke="#0f1216" stroke-width="3"/>
+  <line x1="356" y1="206" x2="346" y2="402" stroke="url(#lead)" stroke-width="8" stroke-linecap="round"/>
+  <line x1="410" y1="206" x2="410" y2="382" stroke="url(#lead)" stroke-width="8" stroke-linecap="round"/>
+  <line x1="464" y1="206" x2="474" y2="402" stroke="url(#lead)" stroke-width="8" stroke-linecap="round"/>
+  <text x="410" y="122" text-anchor="middle" class="pin">S9013</text>
+  <text x="410" y="152" text-anchor="middle" class="small" fill="#d6dbe0">NPN TO-92</text>
+  <text x="346" y="430" text-anchor="middle" class="label">E</text>
+  <text x="410" y="430" text-anchor="middle" class="label">B</text>
+  <text x="474" y="430" text-anchor="middle" class="label">C</text>
+
+  <line x1="84" y1="164" x2="332" y2="164" stroke="#5a534c" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="52" y="156" class="label">平边正视图</text>
+  <text x="52" y="178" class="text">从正面看，三脚常按 E-B-C 排列</text>
+
+  <line x1="84" y1="218" x2="344" y2="218" stroke="#7f2018" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="52" y="210" class="label">Emitter</text>
+  <text x="52" y="232" class="text">发射极，常接地或低端电流路径</text>
+
+  <line x1="84" y1="272" x2="410" y2="272" stroke="#a24d1b" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="52" y="264" class="label">Base</text>
+  <text x="52" y="286" class="text">基极，通常经电阻接控制信号</text>
+
+  <line x1="84" y1="326" x2="470" y2="326" stroke="#5e646a" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="52" y="318" class="label">Collector</text>
+  <text x="52" y="340" class="text">集电极，常接负载或上拉回路</text>
+
+  <line x1="582" y1="126" x2="500" y2="126" stroke="#5a534c" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="596" y="118" class="label">封装</text>
+  <text x="596" y="140" class="text">常见为 TO-92 直插封装</text>
+
+  <line x1="582" y1="180" x2="500" y2="180" stroke="#7f2018" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="596" y="172" class="label">类型</text>
+  <text x="596" y="194" class="text">NPN 小信号三极管</text>
+
+  <line x1="582" y1="234" x2="474" y2="234" stroke="#5e646a" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="596" y="226" class="label">用途</text>
+  <text x="596" y="248" class="text">开关驱动、信号放大、控制级</text>
+
+  <rect x="72" y="438" width="776" height="56" rx="16" fill="#fffdf9" stroke="#e4d8c9"/>
+  <text x="94" y="460" class="label">如何看这个三极管</text>
+  <circle cx="290" cy="455" r="9" fill="#7f2018"/>
+  <text x="306" y="460" class="small">先确认平边正视图，再按 E-B-C 对照</text>
+  <circle cx="560" cy="455" r="9" fill="#5e646a"/>
+  <text x="576" y="460" class="small">不同厂家脚位可能有差异，实用前先核对资料</text>
+  <text x="94" y="482" class="small">本页参数与引脚顺序参考 Components101 页面，用于资料整理与快速查阅。</text>
+</svg>
