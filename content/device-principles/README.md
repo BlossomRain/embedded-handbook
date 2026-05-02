@@ -8,6 +8,12 @@
 |---|---|---|
 | Timers | 定时器与时基相关器件 | [打开](./timers/README.md) |
 
+## Actuators
+
+| 分类 | 说明 | 文档 |
+|---|---|---|
+| Actuators | 舵机、执行器与运动控制类器件 | [打开](./actuators/README.md) |
+
 ## Passive
 
 | 分类 | 说明 | 文档 |

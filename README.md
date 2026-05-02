@@ -41,6 +41,7 @@
 | 分类 | 已收录示例 | 文档 |
 |---|---|---|
 | Timers | `NE555P` | [打开](./content/device-principles/timers/README.md) |
+| Actuators | `SG90 Servo` | [打开](./content/device-principles/actuators/README.md) |
 | Passive | 铝电解电容、陶瓷电容 | [打开](./content/device-principles/passive/README.md) |
 | Opto | `5mm Round LED` | [打开](./content/device-principles/opto/README.md) |
 | Transistors | `S9013` | [打开](./content/device-principles/transistors/README.md) |
@@ -57,6 +58,7 @@
 | GPIO 基础笔记 | 学习笔记 | 对 GPIO 结构和模式做更完整展开 | [打开](./content/technology-introduction/mcu-basics/02-gpio-basics.md) |
 | PWM | 技术主题页 | 用 `1 MHz -> 2000 Hz` 例子说明周期、频率和占空比 | [打开](./content/technology-introduction/signals/pwm/README.md) |
 | NE555P | 器件页 | 引脚图、参数和使用说明 | [打开](./content/device-principles/timers/ne555p/README.md) |
+| SG90 Servo | 器件页 | 三线接法、控制脉宽与常见参数整理 | [打开](./content/device-principles/actuators/sg90-servo/README.md) |
 
 ## 仓库结构
 
@@ -91,3 +93,11 @@ embedded-handbook/
 | SVG 绘制 | 器件图与技术主题图的绘制规范 | [drawing-standard.md](./docs/drawing-standard.md) |
 | 笔记风格 | 学习笔记、项目说明与阅读记录格式 | [NOTE_STYLE.md](./docs/NOTE_STYLE.md) |
 | 资料来源 | 常用资料站点与整理方式 | [sources.md](./docs/sources.md) |
+
+## Hub Entry
+
+This knowledge project is managed through the workspace hub:
+
+D:\workspace\workspace-hub\projects\embedded-device-notes\README.md
+
+Use the hub view as the workspace-level entry for related projects, references, and future cross-project links.

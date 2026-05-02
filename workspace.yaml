@@ -1,0 +1,23 @@
+type: knowledge
+name: embedded-device-notes
+display_name: 器件文档
+domain: electronics
+path: D:\code\mcu\stm32\resource\器件文档
+status: active
+tags:
+  - stm32
+  - electronics
+  - devices
+  - notes
+  - datasheet
+related:
+  - platformio-esp32dev
+contracts: []
+docs:
+  - README.md
+  - docs/PROJECT_NAMING.md
+  - content/technology-introduction/README.md
+  - content/device-principles/README.md
+entry:
+  - README.md
+hub_view: D:\workspace\workspace-hub\projects\embedded-device-notes\README.md
