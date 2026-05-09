@@ -1,23 +1,37 @@
 type: knowledge
-name: embedded-device-notes
-display_name: 器件文档
+name: device-handbook
+display_name: ????
 domain: electronics
-path: D:\code\mcu\stm32\resource\器件文档
+mode: handbook
+structure_profile: docs-root-knowledge
+location:
+  root: code_root
+  relative: mcu\embedded-handbook
+hub_view_rel: projects/device-handbook/README.md
 status: active
+repo_origin: https://github.com/BlossomRain/embedded-handbook.git
 tags:
-  - stm32
-  - electronics
-  - devices
-  - notes
-  - datasheet
+- electronics
+- devices
+- notes
+- datasheet
+- handbook
 related:
-  - platformio-esp32dev
+- platformio-esp32dev
 contracts: []
 docs:
-  - README.md
-  - docs/PROJECT_NAMING.md
-  - content/technology-introduction/README.md
-  - content/device-principles/README.md
+- README.md
+- AGENTS.md
+- docs/
+- docs/PROJECT_NAMING.md
+- content/technology-introduction/README.md
+- content/device-principles/README.md
+- memory/project-overview.md
+- notes/todo.md
 entry:
-  - README.md
-hub_view: D:\workspace\workspace-hub\projects\embedded-device-notes\README.md
+- README.md
+- content/
+- docs/
+- templates/
+- tools/
+commands: []
